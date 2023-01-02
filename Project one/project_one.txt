@@ -1,0 +1,34 @@
+SetUp for node js and typeScript
+*Read about the markdown file
+
+We can create JSON objects and JSON arrays also.
+
+node -v
+tsc -v 
+tsc --init   // to create ts json file
+npm init -y  // to create pakage.json file
+npm i @types/node -D    // to create node modules with types as dev dependency
+npm i inquirer          // to create inquirer as dependency
+npm i -D @types/inquirer   // to got the intellicence as dev dependency
+npm i chalk chalk-animation                 // to install both 
+npm i -D @types/chalk @types/chalk-animation   // to install intellisense of both as dev dependency
+                                  changes in ts json file 
+
+                         target : ES2022
+       module resolution,module : NodeNext
+                                  pakage.json
+                         type   : "module"     //add this 
+
+                                  index.ts
+#!/usr/bin/env node                  // to run the file in node environment
+import inquirer from "inquirer"
+import chalk form "chalk"
+import chalk-animation from "chalk-animation"
+
+ascii.co.uk     // to get calculator from here
+npmjs.com       // chalk animation types
+npmjs.com       // inquirer
+
+Create a npm account
+npm publish run command
+add "bin" : "./index.js";
