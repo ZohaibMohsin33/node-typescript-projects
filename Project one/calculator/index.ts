@@ -2,6 +2,8 @@
 import chalk from "chalk";
 import inquirer from "inquirer";
 import chalkAnimation from "chalk-animation";
+// import chalkAnimation from "chalk-animation";
+
 
 let stopper = ()=>{
     return new Promise((res)=>{
